@@ -229,25 +229,32 @@
     background-repeat: no-repeat;
 }
 
-.header-container3{
+.header-container3 {
     height: 100vh;
     width: 100%;
     padding-top: 15vh;
     padding-bottom: 15vh;
     text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .header-container3>.header{
     font-size: 2.5rem;
     font-weight: 800;
     color: black;
-    font-family:InsaneTechnologyBandwagon-Reg;
+}
+
+.header-container3 img {
+    margin-top: 1rem; 
 }
 
 .btn3{
     background-color: rgb(34, 22, 22);
     color: white;
+
 }
 
 .btn4{
@@ -256,6 +263,7 @@
     color: white;
     font-weight: 500;
     font-size: 1rem;
+    
 }
 
 /* Solar Panels and Model X and Y Same styling*/
